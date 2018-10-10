@@ -1,0 +1,19 @@
+{
+    "require" : {
+        "silex/silex": "^2.0",
+        "monolog/monolog": "^1.22",
+        "twig/twig": "^2.2",
+        "symfony/twig-bridge": "^3.2",
+        "symfony/security": "^3.2",
+        "doctrine/dbal": "^2.5",
+        "symfony/asset": "^3.3"
+    },
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": ["src/"]
+        }
+    }
+}
